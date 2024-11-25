@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1316.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsit.studentmanagementsystem.Controller.Dashboard.Student.BalanceController">
+   <children>
+      <BorderPane layoutX="593.0" layoutY="219.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" stylesheets="@../../../Design/dashboard.css" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="134.0" prefWidth="1136.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="124.0" prefWidth="1110.0" text="Balance">
+                           <font>
+                              <Font name="Poppins Bold" size="38.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets left="20.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <VBox prefHeight="56.0" prefWidth="1136.0">
+                     <children>
+                        <HBox prefHeight="12.0" prefWidth="1116.0">
+                           <children>
+                              <Label fx:id="lblStudentID" prefHeight="23.0" prefWidth="194.0" text="Student ID: 136816927123">
+                                 <font>
+                                    <Font name="Poppins Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Pane prefHeight="23.0" prefWidth="530.0" />
+                              <Label fx:id="lblLevel" prefHeight="23.0" prefWidth="194.0" text="Level: level 99">
+                                 <font>
+                                    <Font name="Poppins Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="11.0" prefWidth="1116.0">
+                           <children>
+                              <Label fx:id="lblName" prefHeight="23.0" prefWidth="194.0" text="Name: Gemri Salulog">
+                                 <font>
+                                    <Font name="Poppins Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Pane prefHeight="23.0" prefWidth="530.0" />
+                              <Label fx:id="lblCourse" prefHeight="23.0" prefWidth="253.0" text="Course: Information Technology">
+                                 <font>
+                                    <Font name="Poppins Regular" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="23.0" prefWidth="239.0">
+                           <children>
+                              <Label prefHeight="23.0" prefWidth="292.0" text="Total Outstanding Balance: 12,000">
+                                 <font>
+                                    <Font name="Poppins Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox prefHeight="288.0" prefWidth="1136.0" spacing="10.0">
+                     <children>
+                        <HBox prefHeight="42.0" prefWidth="1116.0" spacing="30.0" style="-fx-background-color: #B2DFDB;">
+                           <children>
+                              <Label prefHeight="35.0" prefWidth="277.0" text="Due Date">
+                                 <font>
+                                    <Font name="Poppins Regular" size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="35.0" prefWidth="227.0" text="Remarks">
+                                 <font>
+                                    <Font name="Poppins Regular" size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="35.0" prefWidth="146.0" text="Amount">
+                                 <font>
+                                    <Font name="Poppins Regular" size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="35.0" prefWidth="197.0" text="Total Balance">
+                                 <font>
+                                    <Font name="Poppins Regular" size="24.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox prefHeight="21.0" prefWidth="1126.0" spacing="30.0" styleClass="grades" stylesheets="@../../../../../../../student-management/src/main/resources/Design/style.css">
+                           <children>
+                              <Label alignment="BOTTOM_LEFT" prefHeight="27.0" prefWidth="278.0" text="01/01/24">
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="BOTTOM_LEFT" prefHeight="27.0" prefWidth="242.0" text="1st Payment">
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="BOTTOM_LEFT" prefHeight="27.0" prefWidth="178.0" text="2,000">
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="BOTTOM_LEFT" prefHeight="48.0" prefWidth="129.0" text="10,000">
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

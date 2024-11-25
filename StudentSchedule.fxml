@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1316.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsit.studentmanagementsystem.Controller.Dashboard.Student.ScheduleController">
+   <children>
+      <BorderPane layoutX="527.0" layoutY="35.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <HBox prefHeight="768.0" prefWidth="948.0" spacing="30.0" styleClass="gradient2" stylesheets="@../../../Design/dashboard.css" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox prefHeight="708.0" prefWidth="190.0" styleClass="boxes">
+                     <children>
+                        <VBox prefHeight="688.0" prefWidth="165.0" style="-fx-background-color: 0000;">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="47.0" prefWidth="239.0" text="Monday" textFill="WHITE">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Pane prefHeight="110.0" prefWidth="168.0" style="-fx-background-color: #d6e8f2; -fx-background-radius: 12;" styleClass="laman">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="-2.0" layoutY="13.0" prefHeight="43.0" prefWidth="172.0" text="Event Driven">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="-2.0" layoutY="46.0" prefHeight="27.0" prefWidth="171.0" text="Programming">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="-2.0" layoutY="73.0" prefHeight="23.0" prefWidth="171.0" text="4:00 - 7:00 pm">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="300.0" />
+                                 </VBox.margin>
+                              </Pane>
+                           </children>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="30.0" top="30.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="708.0" prefWidth="190.0" styleClass="boxes">
+                     <children>
+                        <VBox prefHeight="688.0" prefWidth="165.0" style="-fx-background-color: 0000;">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="43.0" prefWidth="287.0" text="Tuesday" textFill="WHITE">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="30.0" top="30.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="708.0" prefWidth="190.0" styleClass="boxes">
+                     <children>
+                        <VBox prefHeight="753.0" prefWidth="168.0" style="-fx-background-color: 0000;">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="43.0" prefWidth="308.0" text="Wednesday" textFill="WHITE">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Pane prefHeight="110.0" prefWidth="168.0" styleClass="subs" stylesheets="@../../../../../../../student-management/src/main/resources/Design/style.css">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="1.0" layoutY="12.0" prefHeight="43.0" prefWidth="171.0" text="Information">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutY="33.0" prefHeight="43.0" prefWidth="172.0" text="Management">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="-2.0" layoutY="66.0" prefHeight="43.0" prefWidth="172.0" text="3:00 - 6:00 pm">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="205.0" />
+                                 </VBox.margin>
+                              </Pane>
+                           </children>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="30.0" top="30.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="708.0" prefWidth="190.0" styleClass="boxes">
+                     <children>
+                        <VBox prefHeight="688.0" prefWidth="165.0" style="-fx-background-color: 0000;">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="43.0" prefWidth="283.0" text="Thursday" textFill="WHITE">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="30.0" top="30.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="708.0" prefWidth="190.0" styleClass="boxes">
+                     <children>
+                        <VBox prefHeight="688.0" prefWidth="165.0" style="-fx-background-color: 0000;">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="43.0" prefWidth="272.0" text="Friday" textFill="WHITE">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="30.0" top="30.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="708.0" prefWidth="190.0" styleClass="boxes">
+                     <children>
+                        <VBox prefHeight="688.0" prefWidth="165.0" style="-fx-background-color: 0000;">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="43.0" prefWidth="157.0" text="Saturday" textFill="WHITE">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <font>
+                                    <Font name="Poppins Regular" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Pane prefHeight="110.0" prefWidth="170.0" styleClass="subs" stylesheets="@../../../../../../../student-management/src/main/resources/Design/style.css">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="-2.0" layoutY="11.0" prefHeight="43.0" prefWidth="171.0" text="IT Technical">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="-1.0" layoutY="39.0" prefHeight="34.0" prefWidth="170.0" text="Writing">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="-2.0" layoutY="65.0" prefHeight="34.0" prefWidth="173.0" text="7:00 - 10:00 am">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </Pane>
+                              <Pane prefHeight="110.0" prefWidth="168.0" styleClass="subs" stylesheets="@../../../../../../../student-management/src/main/resources/Design/style.css">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="-1.0" layoutY="11.0" prefHeight="43.0" prefWidth="171.0" text="Emerging">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutY="39.0" prefHeight="34.0" prefWidth="170.0" text="Technology">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="-1.0" layoutY="65.0" prefHeight="34.0" prefWidth="171.0" text="1:30 - 4:30 pm">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="70.0" />
+                                 </VBox.margin>
+                              </Pane>
+                              <Pane prefHeight="110.0" prefWidth="168.0" styleClass="subs" stylesheets="@../../../../../../../student-management/src/main/resources/Design/style.css">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="-1.0" layoutY="9.0" prefHeight="43.0" prefWidth="171.0" text="System Analysis">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutY="37.0" prefHeight="34.0" prefWidth="170.0" text="&amp; Design">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="-3.0" layoutY="67.0" prefHeight="34.0" prefWidth="174.0" text="4:30 - 7:30 pm">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font name="Poppins Regular" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </Pane>
+                           </children>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="30.0" top="30.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="30.0" />
+               </padding>
+            </HBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

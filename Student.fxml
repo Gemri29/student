@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsit.studentmanagementsystem.Controller.Dashboard.Student.StudentController">
+    <left>
+        <VBox fx:id="sidebarPane" prefHeight="768.0" prefWidth="50.0" style="-fx-background-color: #0C1E33;">
+            <Button fx:id="btnDashboard" layoutY="221.0" mnemonicParsing="false" onAction="#dashboard" prefHeight="26.0" prefWidth="300.0" stylesheets="@../../../Design/style.css" textFill="#eceff1">
+                <font>
+                    <Font name="Calibri" size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="btnProfile" layoutY="264.0" mnemonicParsing="false" onAction="#profile" prefHeight="26.0" prefWidth="300.0" stylesheets="@../../../Design/style.css" textFill="#eceff1">
+                <font>
+                    <Font name="Calibri" size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="btnSchedule" layoutY="307.0" mnemonicParsing="false" onAction="#schedule" prefHeight="26.0" prefWidth="300.0" stylesheets="@../../../Design/style.css" textFill="#eceff1">
+                <font>
+                    <Font name="Calibri" size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="btnSubject" layoutX="10.0" layoutY="80.0" mnemonicParsing="false" onAction="#subject" prefHeight="26.0" prefWidth="300.0" stylesheets="@../../../Design/style.css" textFill="#eceff1">
+                <font>
+                    <Font name="Calibri" size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="btnGrades" layoutX="10.0" layoutY="116.0" mnemonicParsing="false" onAction="#grades" prefHeight="26.0" prefWidth="300.0" stylesheets="@../../../Design/style.css" textFill="#eceff1">
+                <font>
+                    <Font name="Calibri" size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="btnBalance" layoutX="10.0" layoutY="151.0" mnemonicParsing="false" onAction="#balance" prefHeight="26.0" prefWidth="300.0" stylesheets="@../../../Design/style.css" textFill="#eceff1">
+                <font>
+                    <Font name="Calibri" size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="btnCOR" layoutX="10.0" layoutY="186.0" mnemonicParsing="false" onAction="#cor" prefHeight="26.0" prefWidth="300.0" stylesheets="@../../../Design/style.css" textFill="#eceff1">
+                <font>
+                    <Font name="Calibri" size="18.0" />
+                </font>
+            </Button>
+            <AnchorPane prefHeight="472.0">
+
+            </AnchorPane>
+            <Button fx:id="btnSignout" layoutX="10.0" layoutY="45.0" mnemonicParsing="false" onAction="#signout" prefHeight="26.0" prefWidth="300.0" style="-fx-background-radius: 0;" stylesheets="@../../../Design/style.css" textFill="WHITE">
+                <font>
+                    <Font name="Calibri" size="18.0" />
+                </font>
+            </Button>
+        </VBox>
+    </left>
+    <center>
+        <StackPane fx:id="mainContainer" layoutX="50.0" prefHeight="768.0" prefWidth="1316.0" />
+    </center>
+</BorderPane>
