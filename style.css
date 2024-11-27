@@ -1,0 +1,277 @@
+@font-face {
+    src: url("Font/Poppins/Poppins-Regular.ttf");
+    font-family: 'Poppins';
+}
+
+.header-text{
+    -fx-text-fill: #223254;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Playfair Display';
+}
+
+.normal-text{
+    -fx-font-family: 'Poppins';
+}
+
+/* <----- For buttons ----->*/
+.dashboard-button{
+    -fx-background-color: transparent;
+    -fx-padding: 10 0 10 0;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: pointer;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.dashboard-button{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-cursor: pointer;
+}
+
+/* Custom small button for reusable rows */
+.small-button {
+    -fx-pref-width: 18px;
+    -fx-min-width: 18px;
+    -fx-max-width: 18px;
+
+    -fx-pref-height: 18px;
+    -fx-min-height: 18px;
+    -fx-max-height: 18px;
+    -fx-transition: all 0.5s ease-in-out;
+}
+
+.small-button:hover {
+    -fx-translate-y: -2px;
+    -fx-cursor: pointer;
+}
+
+.button-shape{
+    -fx-padding: 4 8;
+    -fx-border-radius: 8;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-font-family: 'Poppins';
+    -fx-transition: all 0.1s ease-in-out;
+}
+
+.button-shape:hover {
+    -fx-opacity: 80%;
+    -fx-cursor: pointer;
+}
+
+/* signup buttons */
+.custom-button {
+    -fx-background-color: transparent;
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 4 8;
+    -fx-text-fill: #223254;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-font-family: 'Poppins';
+}
+
+.custom-button, .custom-user-request-button {
+    -fx-transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:pressed {
+    -fx-background-color: #1e2f46; /* Darker shade for pressed state */
+    -fx-text-fill: #ffffff;
+}
+
+.custom-button:hover {
+    -fx-background-color: #223254;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #223254;
+    -fx-cursor: pointer;
+}
+
+.custom-button:focused {
+    -fx-background-color: #223254;
+    -fx-border-color: #223254;
+    -fx-text-fill: #ffffff;
+}
+
+/* <----- For textfields ----->*/
+.custom-search-bar {
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 8 0 0 8;
+    -fx-background-radius: 8 0 0 8;
+    -fx-padding: 2;
+    -fx-text-fill: grey;
+    -fx-font-size: 12px;
+    -fx-font-family: 'Poppins';
+}
+
+.custom-search-bar:hover {
+    -fx-border-color: #223254;
+    -fx-border-width: 1;
+}
+
+.custom-email-field {
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 4;
+    -fx-text-fill: grey;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Poppins';
+}
+
+.custom-email-field:focused {
+    -fx-border-color: #223254;
+    -fx-border-width: 1;
+}
+
+.custom-email-field .text {
+    -fx-fill: #000000;
+}
+
+.custom-email-field .prompt-text {
+    -fx-fill: grey;
+}
+
+.custom-password-field {
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 4;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Poppins';
+}
+
+.custom-text-field {
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 4;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+}
+
+.custom-text-field:focused {
+    -fx-border-color: #223254;
+    -fx-border-width: 1;
+}
+
+.custom-password-field:focused {
+    -fx-border-color: #223254;
+    -fx-border-width: 1;
+}
+
+.custom-text-field .text {
+    -fx-fill: #000000;
+}
+
+.custom-text-field .prompt-text {
+    -fx-fill: grey;
+}
+
+/* <----- For ComboBox ----->*/
+.custom-combo-box {
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 4;
+    -fx-font-family: 'Poppins';
+}
+
+.cb-dept-sched {
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-family: 'Poppins';
+    -fx-prompt-text-fill: lightgrey;
+}
+
+.custom-combo-box .arrow {
+    -fx-background-color: #223254; /* Makes the chevron transparent */
+}
+
+.custom-combo-box .arrow-button:focused .arrow{
+    -fx-background-color: red; /* Makes the chevron transparent */
+}
+
+.custom-combo-box .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: #223254;
+}
+
+.custom-combo-box:focused{
+    -fx-border-color: #223254;
+    -fx-border-width: 1;
+}
+
+/* User Request Buttons */
+
+.custom-user-request-button{
+    -fx-background-color: transparent;
+        -fx-padding: 4 8;
+        -fx-text-fill: #223254;
+        -fx-font-weight: bold;
+}
+
+.custom-user-request-button:hover {
+    -fx-background-color: #223254;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: pointer;
+}
+
+.custom-user-request-button:focused {
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #b7b7cd;
+}
+
+/* Custom Scrollbar */
+.scroll-pane {
+    -fx-background-color: transparent; /* Removes the default background */
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent; /* Transparent viewport */
+}
+
+.scroll-bar {
+    -fx-background-color: transparent; /* Makes the scrollbar background transparent */
+}
+
+.scroll-bar:horizontal {
+    -fx-pref-height: 4px; /* Sets the height of the horizontal scrollbar */
+}
+
+.scroll-bar:vertical {
+    -fx-pref-width: 4px; /* Sets the width of the vertical scrollbar */
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #8c8c8c; /* Default thumb color */
+    -fx-background-radius: 4px; /* Makes the thumb rounded */
+    -fx-background-insets: 0; /* Removes inset spacing */
+    -fx-opacity: 0.8; /* Slightly transparent */
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #5a5a5a; /* Darker color on hover */
+    -fx-opacity: 1; /* Fully opaque on hover */
+}
+
+.scroll-bar .track {
+    -fx-background-color: #e0e0e0; /* Light gray track background */
+    -fx-background-radius: 4px; /* Rounded track */
+    -fx-background-insets: 0; /* Removes inset spacing */
+}
+
+/* <---- Add hover effects----> */
+.hover:hover{
+    -fx-background-color: #c4c4c4;
+}
