@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="768.0" prefWidth="1316.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsit.studentmanagementsystem.Controller.Dashboard.Cashier.DashboardController">
+   <right>
+      <VBox prefHeight="768.0" prefWidth="324.0" style="-fx-background-color: #fcf6ef;" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <VBox prefHeight="768.0" prefWidth="916.0" style="-fx-border-radius: 0 16 16 0; -fx-background-radius: 0 32 32 0; -fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="56.0" prefWidth="892.0">
+               <children>
+                  <VBox prefHeight="64.0" prefWidth="392.0" spacing="4.0">
+                     <padding>
+                        <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                     </padding>
+                     <children>
+                        <Label text="Hello, User">
+                           <font>
+                              <Font name="Calibri Bold" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label style="-fx-text-fill: gray;" text="Today is Day, 1 Month 2024  ">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="292.0" prefWidth="892.0" spacing="12.0">
+               <children>
+                  <VBox prefHeight="268.0" prefWidth="491.0" spacing="12.0" style="-fx-background-radius: 12; -fx-border-radius: 12; -fx-background-color: linear-gradient(to right, #4CAF50 0%, #2C9D46 100%);;">
+                     <padding>
+                        <Insets left="32.0" top="32.0" />
+                     </padding>
+                     <children>
+                        <ImageView fitHeight="86.0" fitWidth="86.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label text="Active Users&#10;" textFill="WHITE">
+                           <font>
+                              <Font name="Calibri" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="42.0" layoutY="138.0" text="100" textFill="WHITE">
+                           <font>
+                              <Font name="Calibri Bold" size="64.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="22.0" layoutY="22.0" prefHeight="268.0" prefWidth="516.0" spacing="12.0" style="-fx-background-radius: 12; -fx-border-radius: 12; -fx-background-color: linear-gradient(to right, #FFC107 0%, #FF9800 100%);;">
+                     <padding>
+                        <Insets left="32.0" top="32.0" />
+                     </padding>
+                     <children>
+                        <ImageView fitHeight="86.0" fitWidth="86.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label text="Pending User Requests&#10;" textFill="WHITE">
+                           <font>
+                              <Font name="Calibri" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label text="100" textFill="WHITE">
+                           <font>
+                              <Font name="Calibri Bold" size="64.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="24.0" right="24.0" top="12.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>
